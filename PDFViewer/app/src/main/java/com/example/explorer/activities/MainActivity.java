@@ -596,6 +596,7 @@ public class MainActivity extends AppCompatActivity {
                     };
 
                     inputDialog.show();
+                    dialogInterface.dismiss();
                 }
             }
         });
